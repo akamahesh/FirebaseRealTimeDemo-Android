@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "670401279770",
+    "firebase_url": "https://realtimedemo-61321.firebaseio.com",
+    "project_id": "realtimedemo-61321",
+    "storage_bucket": "realtimedemo-61321.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670401279770:android:e4cfdb516ab57ee5",
+        "android_client_info": {
+          "package_name": "com.akamahesh.realtimedem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670401279770-g36j99nhipd4ltihubdq0o3k5drbn5o9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akamahesh.realtimedem",
+            "certificate_hash": "2f7f79a32f1ce1d413212d247dd8a8ad36e7cd15"
+          }
+        },
+        {
+          "client_id": "670401279770-o7laa6ttl7pinmeoa8tu3brncfkp4vsj.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "670401279770-o7laa6ttl7pinmeoa8tu3brncfkp4vsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKRrurbtOxDwvBGK9QhudsgBOqkTEebDc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670401279770-o7laa6ttl7pinmeoa8tu3brncfkp4vsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

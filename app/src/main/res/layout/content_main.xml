@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_football_ground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_alignParentEnd="true"
+        android:text="Hello World!"/>
+
+    <ImageView
+        android:id="@+id/ivPlayer1"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/player_size"
+        android:layout_height="@dimen/player_size"
+        android:padding="5dp"
+        android:src="@drawable/team_testico"/>
+
+    <ImageView
+        android:id="@+id/ivPlayer2"
+        android:layout_margin="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="@dimen/player_size"
+        android:layout_height="@dimen/player_size"
+        android:padding="5dp"
+        android:src="@drawable/team_testico"/>
+    <ImageView
+        android:id="@+id/ivPlayer3"
+        android:layout_alignParentStart="true"
+        android:layout_margin="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/player_size"
+        android:layout_height="@dimen/player_size"
+        android:padding="5dp"
+        android:src="@drawable/team_testico"/>
+    <ImageView
+        android:id="@+id/ivPlayer4"
+        android:layout_below="@+id/ivPlayer3"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/player_size"
+        android:layout_height="@dimen/player_size"
+        android:padding="5dp"
+        android:src="@drawable/team_testico"/>
+    <ImageView
+        android:id="@+id/ivPlayer5"
+        android:layout_above="@+id/ivPlayer6"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/player_size"
+        android:layout_height="@dimen/player_size"
+        android:padding="5dp"
+        android:src="@drawable/team_testico"/>
+
+    <ImageView
+        android:id="@+id/ivPlayer6"
+        android:layout_margin="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="@dimen/player_size"
+        android:layout_height="@dimen/player_size"
+        android:padding="5dp"
+        android:src="@drawable/team_testico"/>
+    <ImageView
+        android:id="@+id/ivPlayer7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/player_size"
+        android:layout_height="@dimen/player_size"
+        android:padding="5dp"
+        android:src="@drawable/team_testico"/>
+
+
+    <ImageView
+        android:id="@+id/ivPlayer8"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="@dimen/player_size"
+        android:layout_height="@dimen/player_size"
+        android:padding="4dp"
+        android:src="@drawable/team_testico"/>
+
+</RelativeLayout>
